@@ -1,0 +1,14 @@
+/* Add application styles & imports to this file! */
+h1 {
+  color: #93b1a6;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+* {
+  background-image: linear-gradient(to right, #000000, #282A3A);
+
+  color: red;
+}

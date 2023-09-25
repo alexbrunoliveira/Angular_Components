@@ -1,0 +1,15 @@
+<!-- propert binding-->
+
+<input
+  type="text"
+  [value]="placeholder"
+  (input)="placeholder = $any($event.target).value"
+/>
+
+<!-- Interpolação -->
+<p>{{ placeholder }}</p>
+
+<!-- Associação do angular entre a propiedade e o evento padrão(input) -->
+<!-- Two way data binding -->
+<input type="text" [(ngModel)]="placepass" />
+<p [style.color]="color">{{ placepass }}</p>
